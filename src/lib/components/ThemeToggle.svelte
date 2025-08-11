@@ -5,8 +5,9 @@
 	let theme = 'auto';
 	let isOpen = false;
 	
-	const themes = [
-		{ value: 'auto', label: 'Auto', icon: Monitor },
+	// Dynamic themes array that updates based on system preference
+	$: themes = [
+		{ value: 'auto', label: 'Auto', icon: systemPrefersDark ? Moon : Sun },
 		{ value: 'light', label: 'Light', icon: Sun },
 		{ value: 'dark', label: 'Dark', icon: Moon }
 	];
@@ -17,13 +18,15 @@
 		theme = savedTheme;
 		applyTheme(savedTheme);
 		
-		// Listen for system theme changes when in auto mode
+		// Check initial system preference
 		const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+		systemPrefersDark = mediaQuery.matches;
+		
+		// Listen for system theme changes
 		mediaQuery.addEventListener('change', (e) => {
+			systemPrefersDark = e.matches;
 			if (theme === 'auto') {
 				applyTheme('auto');
-				// Trigger reactivity to update icon
-				theme = theme;
 			}
 		});
 		
@@ -67,22 +70,16 @@
 		isOpen = !isOpen;
 	}
 	
-	// Determine the actual active theme (for icon display)
-	function getActualTheme() {
-		if (theme === 'auto') {
-			// Check if system prefers dark mode
-			if (typeof window !== 'undefined') {
-				return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-			}
-			return 'light';
-		}
-		return theme;
-	}
+	// Reactive statement to determine actual theme
+	let systemPrefersDark = false;
 	
-	$: actualTheme = getActualTheme();
+	$: actualTheme = theme === 'auto'
+		? (systemPrefersDark ? 'dark' : 'light')
+		: theme;
+	
 	$: currentTheme = themes.find(t => t.value === theme);
-	// Show sun/moon based on actual theme, but monitor for auto mode selection
-	$: CurrentIcon = theme === 'auto' ? Monitor : (actualTheme === 'dark' ? Moon : Sun);
+	// Show sun/moon based on actual theme, including for auto mode
+	$: CurrentIcon = actualTheme === 'dark' ? Moon : Sun;
 </script>
 
 <div class="theme-toggle">

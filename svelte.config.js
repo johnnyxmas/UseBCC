@@ -15,8 +15,8 @@ const config = {
 			$lib: 'src/lib'
 		},
 		paths: {
-			// Set base path for GitHub Pages (replace 'UseBCC' with your repo name)
-			base: process.env.NODE_ENV === 'production' ? '/UseBCC' : ''
+			// No base path needed when using custom domain
+			base: ''
 		}
 	}
 };

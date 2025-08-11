@@ -21,7 +21,7 @@
 					<a href="https://twitter.com" target="_blank" rel="noopener" class="social-link" aria-label="Twitter">
 						<Twitter size={20} />
 					</a>
-					<a href="mailto:hello@usebcc.com" class="social-link" aria-label="Email">
+					<a href="mailto:hello@usebcc.info" class="social-link" aria-label="Email">
 						<Mail size={20} />
 					</a>
 				</div>
@@ -68,7 +68,7 @@
 					<ul>
 						<li><a href="#hero">About UseBCC</a></li>
 						<li><a href="#faq">Frequently Asked</a></li>
-						<li><a href="mailto:hello@usebcc.com">Contact Us</a></li>
+						<li><a href="mailto:hello@usebcc.info">Contact Us</a></li>
 						<li><a href="https://github.com/yourusername/UseBCC" target="_blank" rel="noopener">
 							Source Code
 							<ExternalLink size={14} />

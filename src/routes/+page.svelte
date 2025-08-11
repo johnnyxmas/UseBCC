@@ -54,25 +54,25 @@
 				"@type": "ListItem",
 				"position": 1,
 				"name": "Home",
-				"item": "https://usebcc.com/"
+				"item": "https://usebcc.info/"
 			},
 			{
 				"@type": "ListItem",
 				"position": 2,
 				"name": "Email Privacy Guide",
-				"item": "https://usebcc.com/#problem"
+				"item": "https://usebcc.info/#problem"
 			},
 			{
 				"@type": "ListItem",
 				"position": 3,
 				"name": "BCC vs CC Comparison",
-				"item": "https://usebcc.com/#comparison"
+				"item": "https://usebcc.info/#comparison"
 			},
 			{
 				"@type": "ListItem",
 				"position": 4,
 				"name": "Email Settings Guide",
-				"item": "https://usebcc.com/#usage"
+				"item": "https://usebcc.info/#usage"
 			}
 		]
 	}
