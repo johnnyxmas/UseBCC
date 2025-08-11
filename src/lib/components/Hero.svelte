@@ -10,11 +10,11 @@
 			</div>
 			
 			<h1 class="hero-title fade-in">
-				Protect Privacy in <span class="text-primary">Group Emails</span>
+				BCC Email Security: Protect <span class="text-primary">Privacy & Stop Spam</span>
 			</h1>
 			
 			<p class="hero-subtitle fade-in">
-				Stop exposing everyone's email addresses! Protect user privacy and stop the dreaded "Reply-All Problem." Learn why BCC is the privacy-conscious choice for group communications.
+				Master email security with BCC (Blind Carbon Copy). Prevent spam, protect email privacy, and secure recipient addresses. Learn the crucial difference between CC and BCC for anti-spam protection and proper email settings in Gmail, Outlook, and all major email clients.
 			</p>
 			
 			<div class="hero-demo fade-in">
@@ -43,17 +43,24 @@
 			</div>
 			
 			<div class="hero-actions fade-in">
-				<a href="#usage" class="btn btn-primary">
+				<a href="#usage" class="btn btn-primary" aria-label="Learn BCC email settings">
 					<Info size={20} />
-					How to use BCC
+					Configure BCC Email Settings
 				</a>
-				<a href="#problem" class="btn btn-primary">
+				<a href="#problem" class="btn btn-primary" aria-label="Email security guide">
 					<Mail size={20} />
-					Learn Why BCC Matters
+					Email Security & Privacy Guide
 				</a>
-				<a href="#comparison" class="btn btn-outline">
-					See the Difference
+				<a href="#comparison" class="btn btn-outline" aria-label="BCC vs CC comparison">
+					BCC vs CC: See the Difference
 				</a>
+			</div>
+			
+			<div class="seo-keywords fade-in">
+				<p class="keywords-text">
+					Trusted guide for: <strong>BCC best practices that enhance email security</strong>, <strong>email privacy</strong>,
+					<strong>and anti-spam measures</strong>
+				</p>
 			</div>
 		</div>
 	</div>
@@ -160,6 +167,25 @@
 		gap: var(--spacing-4);
 		justify-content: center;
 		flex-wrap: wrap;
+		margin-bottom: var(--spacing-6);
+	}
+	
+	.seo-keywords {
+		margin-top: var(--spacing-8);
+		padding-top: var(--spacing-8);
+		border-top: 1px solid var(--color-gray-200);
+	}
+	
+	.keywords-text {
+		font-size: var(--font-size-sm);
+		color: var(--color-gray-600);
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	
+	.keywords-text strong {
+		color: var(--color-gray-800);
+		font-weight: 600;
 	}
 	
 	@media (max-width: 768px) {

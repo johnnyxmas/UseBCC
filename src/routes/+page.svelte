@@ -35,8 +35,52 @@
 </script>
 
 <svelte:head>
-	<title>Use BCC - Protect Privacy in Group Emails</title>
-	<meta name="description" content="Learn why using BCC instead of CC protects privacy in group emails. Discover the benefits of blind carbon copy for secure email communication." />
+	<title>BCC Email Privacy Guide 2024 - Anti-Spam & Security Settings | UseBCC</title>
+	<meta name="description" content="Master email security with BCC settings. Comprehensive guide on email privacy, anti-spam protection, and the difference between BCC vs CC. Protect recipients from data breaches and email harvesting." />
+	<meta name="keywords" content="email security, email privacy, anti-spam, BCC, CC, email settings, blind carbon copy, spam protection, email best practices, GDPR compliance" />
+	
+	<!-- Article metadata for SEO -->
+	<meta property="article:published_time" content="2024-01-01T00:00:00Z" />
+	<meta property="article:modified_time" content={new Date().toISOString()} />
+	<meta property="article:section" content="Email Security" />
+	<meta property="article:tag" content="Email Privacy" />
+	<meta property="article:tag" content="Anti-Spam" />
+	<meta property="article:tag" content="BCC" />
+	<meta property="article:tag" content="Email Settings" />
+	
+	<!-- Additional Schema.org breadcrumb -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+			{
+				"@type": "ListItem",
+				"position": 1,
+				"name": "Home",
+				"item": "https://usebcc.com/"
+			},
+			{
+				"@type": "ListItem",
+				"position": 2,
+				"name": "Email Privacy Guide",
+				"item": "https://usebcc.com/#problem"
+			},
+			{
+				"@type": "ListItem",
+				"position": 3,
+				"name": "BCC vs CC Comparison",
+				"item": "https://usebcc.com/#comparison"
+			},
+			{
+				"@type": "ListItem",
+				"position": 4,
+				"name": "Email Settings Guide",
+				"item": "https://usebcc.com/#usage"
+			}
+		]
+	}
+	</script>
 </svelte:head>
 
 <div id="hero">

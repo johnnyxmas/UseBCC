@@ -1,0 +1,55 @@
+# Robots.txt for UseBCC.com
+# Email Privacy and Security Guide
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_app/
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://usebcc.com/sitemap.xml
+
+# Additional SEO directives
+# Priority pages for email security and privacy keywords
+# These comments help search engines understand our focus areas:
+# - Email Security
+# - Email Privacy  
+# - Anti-Spam Protection
+# - BCC (Blind Carbon Copy)
+# - CC vs BCC Comparison
+# - Email Settings Guide
+# - GDPR Email Compliance
+# - Spam Prevention
+# - Email Best Practices

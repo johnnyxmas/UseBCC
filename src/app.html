@@ -3,33 +3,203 @@
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.svg" type="image/svg+xml" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" type="image/png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="description" content="Learn why using BCC instead of CC protects privacy in group emails. Discover the benefits of blind carbon copy for secure email communication." />
-		<meta name="keywords" content="BCC, email privacy, blind carbon copy, email security, group emails" />
+		
+		<!-- Primary Meta Tags -->
+		<meta name="title" content="BCC Email Privacy Guide - Protect Recipients from Spam & Data Breaches | UseBCC" />
+		<meta name="description" content="Master email security with BCC (Blind Carbon Copy). Learn the difference between BCC vs CC, protect email privacy, prevent spam, and secure group communications. Essential email settings guide for businesses and individuals." />
+		<meta name="keywords" content="BCC, blind carbon copy, email privacy, email security, anti-spam, CC vs BCC, email settings, group email protection, prevent email harvesting, GDPR email compliance, secure email communication, email best practices, protect email addresses, email confidentiality, spam prevention, email etiquette, business email security, mass email privacy, email recipient protection, email data protection" />
 		
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="https://usebcc.com/" />
-		<meta property="og:title" content="Use BCC - Protect Privacy in Group Emails" />
-		<meta property="og:description" content="Learn why using BCC instead of CC protects privacy in group emails. Simple guidance for better email practices." />
+		<meta property="og:title" content="BCC Email Privacy Guide - Protect Recipients from Spam & Data Breaches" />
+		<meta property="og:description" content="Learn how BCC protects email privacy, prevents spam, and secures group communications. Essential guide for email security and proper email settings." />
 		<meta property="og:image" content="https://usebcc.com/og-image.png" />
+		<meta property="og:site_name" content="UseBCC - Email Privacy Protection" />
+		<meta property="og:locale" content="en_US" />
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
 		<meta property="twitter:url" content="https://usebcc.com/" />
-		<meta property="twitter:title" content="Use BCC - Protect Privacy in Group Emails" />
-		<meta property="twitter:description" content="Learn why using BCC instead of CC protects privacy in group emails. Simple guidance for better email practices." />
+		<meta property="twitter:title" content="BCC Email Privacy Guide - Protect from Spam & Data Breaches" />
+		<meta property="twitter:description" content="Master email security with BCC. Protect privacy, prevent spam, secure group emails. Essential guide for proper email settings." />
 		<meta property="twitter:image" content="https://usebcc.com/og-image.png" />
+		<meta property="twitter:creator" content="@usebcc" />
 		
 		<!-- Additional SEO -->
-		<meta name="author" content="UseBCC" />
-		<meta name="robots" content="index, follow" />
+		<meta name="author" content="UseBCC - Email Privacy Experts" />
+		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+		<meta name="googlebot" content="index, follow" />
 		<link rel="canonical" href="https://usebcc.com/" />
+		<meta name="theme-color" content="#3B82F6" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="UseBCC" />
+		<link rel="alternate" hreflang="en" href="https://usebcc.com/" />
+		<link rel="alternate" hreflang="x-default" href="https://usebcc.com/" />
 		
-		<title>Use BCC - Protect Privacy in Group Emails</title>
+		<!-- Preconnect to external domains -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+		
+		<title>BCC Email Privacy Guide - Protect Recipients from Spam & Email Security | UseBCC</title>
+		
+		<!-- Structured Data (JSON-LD) -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebSite",
+			"name": "UseBCC",
+			"alternateName": "Use BCC - Email Privacy Protection",
+			"url": "https://usebcc.com/",
+			"description": "Comprehensive guide on using BCC for email privacy, security, and anti-spam protection. Learn the difference between BCC and CC, and master email settings for secure communication.",
+			"publisher": {
+				"@type": "Organization",
+				"name": "UseBCC",
+				"url": "https://usebcc.com/",
+				"logo": {
+					"@type": "ImageObject",
+					"url": "https://usebcc.com/favicon.svg",
+					"width": 512,
+					"height": 512
+				}
+			},
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://usebcc.com/?search={search_term_string}",
+				"query-input": "required name=search_term_string"
+			},
+			"mainEntity": {
+				"@type": "FAQPage",
+				"mainEntity": [
+					{
+						"@type": "Question",
+						"name": "What is BCC in email settings?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "BCC (Blind Carbon Copy) is an email setting that allows you to send copies of an email to multiple recipients without revealing their email addresses to each other, protecting privacy and preventing spam."
+						}
+					},
+					{
+						"@type": "Question",
+						"name": "How does BCC protect email privacy?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "BCC protects email privacy by hiding recipient email addresses from each other, preventing email harvesting, reducing spam risk, and maintaining confidentiality in group communications."
+						}
+					},
+					{
+						"@type": "Question",
+						"name": "What's the difference between CC and BCC?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "CC (Carbon Copy) shows all recipient email addresses to everyone, while BCC (Blind Carbon Copy) hides recipient addresses from each other. BCC is essential for email security and anti-spam protection."
+						}
+					},
+					{
+						"@type": "Question",
+						"name": "When should I use BCC for email security?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "Use BCC when sending group emails, newsletters, announcements, or any communication where recipients don't need to see each other's email addresses. This prevents spam and protects privacy."
+						}
+					},
+					{
+						"@type": "Question",
+						"name": "How do I enable BCC in my email settings?",
+						"acceptedAnswer": {
+							"@type": "Answer",
+							"text": "BCC is available in all major email clients. In Gmail, click 'Bcc' next to the To field. In Outlook, click 'Bcc' in the ribbon. For other email settings, look for the BCC option in compose window."
+						}
+					}
+				]
+			},
+			"about": [
+				{
+					"@type": "Thing",
+					"name": "Email Privacy"
+				},
+				{
+					"@type": "Thing",
+					"name": "Email Security"
+				},
+				{
+					"@type": "Thing",
+					"name": "Anti-Spam"
+				},
+				{
+					"@type": "Thing",
+					"name": "BCC (Blind Carbon Copy)"
+				},
+				{
+					"@type": "Thing",
+					"name": "Email Settings"
+				}
+			]
+		}
+		</script>
+		
+		<!-- HowTo Schema for Email Settings Guide -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "HowTo",
+			"name": "How to Use BCC for Email Privacy and Security",
+			"description": "Step-by-step guide to using BCC (Blind Carbon Copy) in email settings to protect privacy, prevent spam, and ensure email security.",
+			"image": "https://usebcc.com/og-image.png",
+			"totalTime": "PT5M",
+			"estimatedCost": {
+				"@type": "MonetaryAmount",
+				"currency": "USD",
+				"value": "0"
+			},
+			"supply": [],
+			"tool": [
+				{
+					"@type": "HowToTool",
+					"name": "Email Client (Gmail, Outlook, Apple Mail, etc.)"
+				}
+			],
+			"step": [
+				{
+					"@type": "HowToStep",
+					"name": "Open your email client",
+					"text": "Launch your preferred email application or webmail service",
+					"image": "https://usebcc.com/step1.png"
+				},
+				{
+					"@type": "HowToStep",
+					"name": "Compose a new email",
+					"text": "Click on 'Compose' or 'New Email' button",
+					"image": "https://usebcc.com/step2.png"
+				},
+				{
+					"@type": "HowToStep",
+					"name": "Enable BCC field",
+					"text": "Look for 'BCC' option near the To field and click it to reveal the BCC field",
+					"image": "https://usebcc.com/step3.png"
+				},
+				{
+					"@type": "HowToStep",
+					"name": "Add recipients to BCC",
+					"text": "Enter all recipient email addresses in the BCC field, separated by commas",
+					"image": "https://usebcc.com/step4.png"
+				},
+				{
+					"@type": "HowToStep",
+					"name": "Send your secure email",
+					"text": "Complete your email and click Send. Recipients won't see each other's addresses",
+					"image": "https://usebcc.com/step5.png"
+				}
+			]
+		}
+		</script>
+		
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
+		<div class="sveltekit-body-wrapper">%sveltekit.body%</div>
 	</body>
 </html>

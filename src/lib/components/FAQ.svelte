@@ -6,22 +6,82 @@
 	
 	const faqItems = [
 		{
+			id: 'email-security-bcc',
+			category: 'Email Security',
+			question: 'How does BCC improve email security?',
+			answer: 'BCC (Blind Carbon Copy) is a crucial email security feature that protects recipient addresses from exposure. It prevents email harvesting by spammers, reduces phishing risks, and maintains confidentiality in business communications. Using BCC is an essential email security best practice that helps prevent data breaches and unauthorized access to contact lists.'
+		},
+		{
+			id: 'email-privacy-protection',
+			category: 'Email Privacy',
+			question: 'What email privacy benefits does BCC provide?',
+			answer: 'BCC offers comprehensive email privacy protection by hiding all recipient email addresses from each other. This privacy feature prevents unwanted contact between recipients, protects personal information from being shared without consent, and ensures compliance with privacy regulations like GDPR. Email privacy is fundamental in today\'s digital age, and BCC is your first line of defense.'
+		},
+		{
+			id: 'anti-spam-bcc',
+			category: 'Anti-Spam',
+			question: 'How does BCC help with anti-spam protection?',
+			answer: 'BCC is a powerful anti-spam tool that prevents email addresses from being harvested and sold to spammers. When you use CC, all email addresses are visible and can be collected by malicious actors or compromised accounts. BCC keeps addresses hidden, significantly reducing spam risk and protecting your contacts from unwanted emails. This anti-spam measure is essential for maintaining clean inboxes.'
+		},
+		{
+			id: 'email-settings-bcc',
+			category: 'Email Settings',
+			question: 'How do I configure BCC in my email settings?',
+			answer: 'BCC is available in all email settings across major providers. In Gmail settings, click the "Bcc" link next to the To field. Outlook email settings show BCC in the Options ribbon. Apple Mail settings reveal BCC through View > Bcc Address Field. Mobile email settings typically hide BCC by default - look for "Show more fields" or a "+" button in your compose screen.'
+		},
+		{
+			id: 'cc-vs-bcc-difference',
+			category: 'CC vs BCC',
+			question: 'What\'s the key difference between CC and BCC in email?',
+			answer: 'CC (Carbon Copy) and BCC (Blind Carbon Copy) serve different purposes in email communication. CC makes all recipient addresses visible to everyone, suitable for transparent group discussions. BCC hides recipient addresses, ideal for email privacy and security. Use CC when recipients need to know who else received the email; use BCC for newsletters, announcements, and protecting email privacy.'
+		},
+		{
 			id: 'recipients-know',
 			category: 'Privacy',
 			question: 'Will recipients know I used BCC?',
-			answer: 'No, recipients cannot tell if you used BCC. They only see their own email address in the "To" field and cannot see who else received the email. This is the main privacy benefit of BCC.'
+			answer: 'No, recipients cannot tell if you used BCC. They only see their own email address in the "To" field and cannot see who else received the email. This is the main privacy benefit of BCC for email security and anti-spam protection.'
 		},
 		{
 			id: 'when-use-bcc',
 			category: 'Usage',
 			question: 'When should I use BCC instead of CC?',
-			answer: 'Use BCC when recipients don\'t need to know each other\'s email addresses, such as newsletters, group announcements, introductions, or any mass communication. Use CC only when transparency about all recipients is necessary for the conversation.'
+			answer: 'Use BCC when email privacy and security are priorities. Perfect for newsletters, group announcements, client communications, and any mass email where anti-spam protection is important. BCC prevents email harvesting and protects recipient privacy. Use CC only when transparency about all recipients is necessary for the conversation and email security isn\'t a concern.'
+		},
+		{
+			id: 'gdpr-email-compliance',
+			category: 'Email Security',
+			question: 'Is BCC required for GDPR and email privacy compliance?',
+			answer: 'While not explicitly required, BCC is strongly recommended for GDPR compliance and email privacy protection. Exposing email addresses without consent (via CC) could violate data protection regulations. BCC ensures email security by protecting personal data, demonstrating privacy by design principles, and reducing liability for data breaches. Many organizations mandate BCC for external group emails as part of their email security policies.'
+		},
+		{
+			id: 'prevent-email-harvesting',
+			category: 'Anti-Spam',
+			question: 'How does BCC prevent email harvesting and spam?',
+			answer: 'Email harvesting occurs when spammers collect visible email addresses from CC fields. BCC prevents this anti-spam threat by hiding all recipient addresses. This email security measure stops automated bots from scraping addresses, prevents compromised accounts from exposing contact lists, and reduces spam proliferation. Using BCC is a critical anti-spam strategy for protecting your network from unwanted emails.'
+		},
+		{
+			id: 'business-email-security',
+			category: 'Email Security',
+			question: 'Why is BCC essential for business email security?',
+			answer: 'BCC is fundamental to business email security, protecting client confidentiality, preventing competitor intelligence gathering, and maintaining professional privacy standards. It demonstrates security awareness, helps meet compliance requirements, and prevents unauthorized business development outreach to your contacts. Email security through BCC usage is now considered a professional standard in business communications.'
 		},
 		{
 			id: 'completely-private',
-			category: 'Privacy',
+			category: 'Email Privacy',
 			question: 'Is BCC completely private and secure?',
-			answer: 'BCC hides recipient email addresses from each other, but the email server and email provider can still see all recipients. For truly secure communication, consider encrypted email services. BCC is about recipient privacy, not email content security.'
+			answer: 'BCC provides excellent email privacy by hiding recipient addresses from each other, crucial for anti-spam and basic email security. However, email servers and providers can still see all recipients. For maximum email security, combine BCC with encrypted email services. BCC focuses on recipient privacy and anti-spam protection, while encryption secures email content. Together, they form comprehensive email security.'
+		},
+		{
+			id: 'email-settings-gmail',
+			category: 'Email Settings',
+			question: 'How do I access BCC in Gmail email settings?',
+			answer: 'In Gmail email settings, BCC is easily accessible. When composing an email, click the "Bcc" link next to the "To" field. For permanent display, go to Gmail Settings > General > Default reply behavior. Gmail\'s BCC feature supports email privacy and anti-spam protection with unlimited recipients, making it ideal for secure mass communications while maintaining email security standards.'
+		},
+		{
+			id: 'email-settings-outlook',
+			category: 'Email Settings',
+			question: 'Where is BCC in Outlook email settings?',
+			answer: 'Outlook email settings make BCC readily available for email security. In Outlook desktop, find BCC in the Options tab while composing. For Outlook.com, click "Bcc" next to the To field. Outlook\'s email settings support advanced BCC features including distribution lists, enhancing both email privacy and anti-spam capabilities for business email security needs.'
 		},
 		{
 			id: 'reply-all-bcc',
@@ -75,7 +135,25 @@
 			id: 'bcc-limits',
 			category: 'Technical',
 			question: 'Are there limits to how many BCC recipients I can add?',
-			answer: 'Email providers typically limit the total number of recipients per email (usually 100-500). This includes To, CC, and BCC recipients combined. For larger lists, consider using dedicated email marketing services or mailing list software.'
+			answer: 'Email providers typically limit the total number of recipients per email (usually 100-500). This includes To, CC, and BCC recipients combined. For larger lists, consider using dedicated email marketing services or mailing list software that maintain email security and anti-spam compliance. These limits help prevent spam while ensuring email privacy protection for legitimate communications.'
+		},
+		{
+			id: 'spam-folder-bcc',
+			category: 'Anti-Spam',
+			question: 'Will using BCC cause emails to go to spam folders?',
+			answer: 'Proper BCC usage actually helps with anti-spam compliance and shouldn\'t trigger spam filters. However, sending to many BCC recipients without a "To" address might look suspicious. For better email security and deliverability, add your own address to the "To" field when using BCC for groups. This maintains email privacy while following anti-spam best practices.'
+		},
+		{
+			id: 'reply-all-security',
+			category: 'Email Security',
+			question: 'How does BCC enhance reply-all email security?',
+			answer: 'BCC provides crucial email security against reply-all disasters. Since BCC recipients can\'t see or reply to other hidden recipients, it prevents accidental exposure of email addresses and confidential responses. This email privacy feature is essential for preventing data leaks, maintaining professional communications, and ensuring anti-spam protection in group emails.'
+		},
+		{
+			id: 'email-settings-mobile',
+			category: 'Email Settings',
+			question: 'How do I configure BCC in mobile email settings?',
+			answer: 'Mobile email settings often hide BCC for interface simplicity, but it\'s always available for email security. In iOS Mail settings, tap the Cc/Bcc field. Android Gmail shows BCC via the down arrow. Most mobile email apps have BCC under "Show more fields" or a "+" icon. Mobile BCC maintains the same email privacy and anti-spam benefits as desktop versions.'
 		}
 	];
 	

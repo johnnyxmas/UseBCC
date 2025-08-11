@@ -96,7 +96,7 @@
       "_lucide.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.DqmKyEAt.css"
+      "_app/immutable/assets/_layout.DRteiO7G.css"
     ]
   },
   "src/routes/+page.svelte": {
@@ -108,7 +108,7 @@
       "_lucide.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.B7J-Oabc.css"
+      "_app/immutable/assets/_page.BeN4AH1O.css"
     ]
   }
 }
