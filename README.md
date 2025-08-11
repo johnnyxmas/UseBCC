@@ -100,7 +100,24 @@ npm run preview
 
 This SvelteKit application can be deployed to various platforms:
 
-### Vercel (Recommended)
+### GitHub Pages (Pre-configured)
+
+This project is already configured for GitHub Pages deployment:
+
+1. **Enable GitHub Pages in your repository:**
+   - Go to Settings → Pages
+   - Under "Source", select "GitHub Actions"
+   
+1. **Automatic deployment:**
+   - Every push to the `main` branch triggers deployment
+   - The site will be available at `https://[username].github.io/UseBCC/`
+   
+1. **Manual deployment:**
+   - Go to Actions tab in your repository
+   - Select "Deploy to GitHub Pages" workflow
+   - Click "Run workflow" to manually trigger deployment
+
+### Vercel
 
 1. Connect your GitHub repository to Vercel
 1. Vercel will automatically detect SvelteKit and configure the build
@@ -111,12 +128,6 @@ This SvelteKit application can be deployed to various platforms:
 1. Build the project: `npm run build`
 1. Deploy the `build` directory to Netlify
 1. Configure redirects for SPA routing if needed
-
-### Static Hosting
-
-1. Use the static adapter: `npm install -D @sveltejs/adapter-static`
-1. Update `svelte.config.js` to use the static adapter
-1. Build and deploy the generated static files
 
 ## ♿ Accessibility Features
 

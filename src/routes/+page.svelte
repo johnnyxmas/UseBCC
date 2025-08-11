@@ -39,11 +39,23 @@
 	<meta name="description" content="Learn why using BCC instead of CC protects privacy in group emails. Discover the benefits of blind carbon copy for secure email communication." />
 </svelte:head>
 
-<Hero />
-<ProblemSection />
-<SolutionSection />
-<ComparisonComponent />
-<UsageGuide />
-<FAQ />
+<div id="hero">
+	<Hero />
+</div>
+<div id="problem">
+	<ProblemSection />
+</div>
+<div id="solution">
+	<SolutionSection />
+</div>
+<div id="comparison">
+	<ComparisonComponent />
+</div>
+<div id="usage">
+	<UsageGuide />
+</div>
+<div id="faq">
+	<FAQ />
+</div>
 <CallToAction />
 <Footer />

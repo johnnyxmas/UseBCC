@@ -1,5 +1,6 @@
 <script>
 	import { Shield, Mail, Github, Twitter, ExternalLink, Heart } from 'lucide-svelte';
+	import { base } from '$app/paths';
 </script>
 
 <footer class="footer">
@@ -63,12 +64,15 @@
 				</div>
 				
 				<div class="link-group">
-					<h4>Privacy</h4>
+					<h4>About</h4>
 					<ul>
-						<li><a href="/privacy">Privacy Policy</a></li>
-						<li><a href="/terms">Terms of Use</a></li>
-						<li><a href="/cookies">Cookie Policy</a></li>
-						<li><a href="/contact">Contact Us</a></li>
+						<li><a href="#hero">About UseBCC</a></li>
+						<li><a href="#faq">Frequently Asked</a></li>
+						<li><a href="mailto:hello@usebcc.com">Contact Us</a></li>
+						<li><a href="https://github.com/yourusername/UseBCC" target="_blank" rel="noopener">
+							Source Code
+							<ExternalLink size={14} />
+						</a></li>
 					</ul>
 				</div>
 			</div>

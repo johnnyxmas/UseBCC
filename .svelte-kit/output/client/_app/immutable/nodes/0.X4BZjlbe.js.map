@@ -1,1 +1,0 @@
-{"version":3,"file":"0.X4BZjlbe.js","sources":["../../../../../../src/routes/+layout.svelte"],"sourcesContent":["<script>\n\timport '../app.css';\n</script>\n\n<main>\n\t<slot />\n</main>\n\n<style>\n\tmain {\n\t\tmin-height: 100vh;\n\t\twidth: 100%;\n\t}\n</style>"],"names":["insert_hydration","target","main","anchor"],"mappings":"kWAIAA,EAEMC,EAAAC,EAAAC"}
