@@ -13,9 +13,9 @@ export async function handle({ event, resolve }) {
   const cspDirectives = [
     "default-src 'self'",
     "script-src 'self' 'unsafe-inline'", // unsafe-inline needed for SvelteKit
-    "style-src 'self' 'unsafe-inline'",  // unsafe-inline needed for inline styles
+    "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",  // unsafe-inline needed for inline styles, googleapis for fonts
     "img-src 'self' data: https:",
-    "font-src 'self' data:",
+    "font-src 'self' data: https://fonts.gstatic.com", // Added Google Fonts
     "connect-src 'self'",
     "media-src 'self'",
     "object-src 'none'",

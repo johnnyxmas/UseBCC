@@ -78,7 +78,7 @@
 	}
 	
 	.bg-gradient {
-		background: linear-gradient(135deg, var(--color-gray-50) 0%, var(--color-white) 100%);
+		background: linear-gradient(135deg, var(--color-bg-secondary) 0%, var(--color-bg) 100%);
 	}
 	
 	.hero-content {
@@ -102,7 +102,7 @@
 	
 	.hero-subtitle {
 		font-size: var(--font-size-xl);
-		color: var(--color-gray-600);
+		color: var(--color-text-secondary);
 		margin-bottom: var(--spacing-10);
 		max-width: 600px;
 		margin-left: auto;
@@ -114,13 +114,14 @@
 	}
 	
 	.email-preview {
-		background: var(--color-white);
+		background: var(--color-bg);
 		border-radius: var(--radius-xl);
 		box-shadow: var(--shadow-xl);
 		padding: var(--spacing-6);
 		max-width: 500px;
 		margin: 0 auto;
 		text-align: left;
+		border: 1px solid var(--color-border);
 	}
 	
 	.email-header {
@@ -137,7 +138,7 @@
 	
 	.field-label {
 		font-weight: 600;
-		color: var(--color-gray-700);
+		color: var(--color-text-secondary);
 		min-width: 40px;
 	}
 	
@@ -164,6 +165,30 @@
 		border: 1px solid var(--color-green-200);
 	}
 	
+	/* Dark mode adjustments for status indicators */
+	@media (prefers-color-scheme: dark) {
+		:global(:root:not(.light)) .exposed {
+			background: rgba(220, 38, 38, 0.1);
+			border-color: rgba(220, 38, 38, 0.3);
+		}
+		
+		:global(:root:not(.light)) .protected {
+			background: rgba(16, 185, 129, 0.1);
+			border-color: rgba(16, 185, 129, 0.3);
+		}
+	}
+	
+	/* Manual dark mode adjustments */
+	:global(:root.dark) .exposed {
+		background: rgba(220, 38, 38, 0.1);
+		border-color: rgba(220, 38, 38, 0.3);
+	}
+	
+	:global(:root.dark) .protected {
+		background: rgba(16, 185, 129, 0.1);
+		border-color: rgba(16, 185, 129, 0.3);
+	}
+	
 	.hero-actions {
 		display: flex;
 		gap: var(--spacing-4);
@@ -175,18 +200,18 @@
 	.seo-keywords {
 		margin-top: var(--spacing-8);
 		padding-top: var(--spacing-8);
-		border-top: 1px solid var(--color-gray-200);
+		border-top: 1px solid var(--color-border);
 	}
 	
 	.keywords-text {
 		font-size: var(--font-size-sm);
-		color: var(--color-gray-600);
+		color: var(--color-text-muted);
 		max-width: 600px;
 		margin: 0 auto;
 	}
 	
 	.keywords-text strong {
-		color: var(--color-gray-800);
+		color: var(--color-text);
 		font-weight: 600;
 	}
 	
