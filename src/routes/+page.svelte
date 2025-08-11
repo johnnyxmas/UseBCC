@@ -10,7 +10,6 @@
 	import Footer from '$lib/components/Footer.svelte';
 
 	onMount(() => {
-		// Intersection Observer for scroll animations
 		const observerOptions = {
 			threshold: 0.1,
 			rootMargin: '0px 0px -50px 0px'
@@ -24,7 +23,6 @@
 			});
 		}, observerOptions);
 
-		// Observe all elements with animation classes
 		const animatedElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right');
 		animatedElements.forEach((el) => observer.observe(el));
 
@@ -39,7 +37,6 @@
 	<meta name="description" content="Master email security with BCC settings. Comprehensive guide on email privacy, anti-spam protection, and the difference between BCC vs CC. Protect recipients from data breaches and email harvesting." />
 	<meta name="keywords" content="email security, email privacy, anti-spam, BCC, CC, email settings, blind carbon copy, spam protection, email best practices, GDPR compliance" />
 	
-	<!-- Article metadata for SEO -->
 	<meta property="article:published_time" content="2024-01-01T00:00:00Z" />
 	<meta property="article:modified_time" content={new Date().toISOString()} />
 	<meta property="article:section" content="Email Security" />
@@ -48,7 +45,6 @@
 	<meta property="article:tag" content="BCC" />
 	<meta property="article:tag" content="Email Settings" />
 	
-	<!-- Additional Schema.org breadcrumb -->
 	<script type="application/ld+json">
 	{
 		"@context": "https://schema.org",
