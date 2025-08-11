@@ -10,7 +10,9 @@
 			</div>
 			
 			<h1 class="hero-title fade-in">
-				BCC Email Security: Protect <span class="text-primary">Privacy & Stop Spam</span>
+				BCC, not CC:<br>
+				Protect Privacy,<br>
+				<span class="text-primary">Stop Reply-All Spam</span>
 			</h1>
 			
 			<p class="hero-subtitle fade-in">
