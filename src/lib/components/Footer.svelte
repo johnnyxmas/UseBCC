@@ -81,11 +81,11 @@
 		<div class="footer-bottom">
 			<div class="footer-stats">
 				<div class="stat-item">
-					<span class="stat-number">10,000+</span>
+					<span class="stat-number">1.64<br>Quadrillion+</span>
 					<span class="stat-label">Protected Recipients</span>
 				</div>
 				<div class="stat-item">
-					<span class="stat-number">50,000+</span>
+					<span class="stat-number">32 Trillion+</span>
 					<span class="stat-label">Private Emails</span>
 				</div>
 				<div class="stat-item">

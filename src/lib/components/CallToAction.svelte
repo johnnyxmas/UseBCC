@@ -21,7 +21,7 @@
 							<Users size={24} />
 						</div>
 						<div class="stat-content">
-							<div class="stat-number">10,000+</div>
+							<div class="stat-number">1.64 Quadrillion+</div>
 							<div class="stat-label">Protected Recipients</div>
 						</div>
 					</div>
@@ -31,7 +31,7 @@
 							<Mail size={24} />
 						</div>
 						<div class="stat-content">
-							<div class="stat-number">50,000+</div>
+							<div class="stat-number">32 Trillion+</div>
 							<div class="stat-label">Private Emails Sent</div>
 						</div>
 					</div>

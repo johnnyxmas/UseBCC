@@ -32,12 +32,13 @@ declare module '$env/static/private' {
 	export const GEM_HOME: string;
 	export const PYENV_ROOT: string;
 	export const TERM: string;
+	export const VTE_VERSION: string;
 	export const SHELL: string;
+	export const ITERM_SHELL_INTEGRATION_INSTALLED: string;
 	export const HOMEBREW_REPOSITORY: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
 	export const TERM_PROGRAM_VERSION: string;
-	export const ZDOTDIR: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const MallocNanoZone: string;
 	export const COLOR: string;
@@ -52,6 +53,7 @@ declare module '$env/static/private' {
 	export const __CF_USER_TEXT_ENCODING: string;
 	export const npm_execpath: string;
 	export const PYENV_VIRTUALENV_INIT: string;
+	export const PAGER: string;
 	export const PATH: string;
 	export const npm_package_json: string;
 	export const _: string;
@@ -88,6 +90,7 @@ declare module '$env/static/private' {
 	export const npm_config_user_agent: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const GIT_ASKPASS: string;
+	export const PROMPT_EOL_MARK: string;
 	export const INFOPATH: string;
 	export const HOMEBREW_CELLAR: string;
 	export const RUBYOPT: string;
@@ -134,12 +137,13 @@ declare module '$env/dynamic/private' {
 		GEM_HOME: string;
 		PYENV_ROOT: string;
 		TERM: string;
+		VTE_VERSION: string;
 		SHELL: string;
+		ITERM_SHELL_INTEGRATION_INSTALLED: string;
 		HOMEBREW_REPOSITORY: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
 		TERM_PROGRAM_VERSION: string;
-		ZDOTDIR: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		MallocNanoZone: string;
 		COLOR: string;
@@ -154,6 +158,7 @@ declare module '$env/dynamic/private' {
 		__CF_USER_TEXT_ENCODING: string;
 		npm_execpath: string;
 		PYENV_VIRTUALENV_INIT: string;
+		PAGER: string;
 		PATH: string;
 		npm_package_json: string;
 		_: string;
@@ -190,6 +195,7 @@ declare module '$env/dynamic/private' {
 		npm_config_user_agent: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
 		GIT_ASKPASS: string;
+		PROMPT_EOL_MARK: string;
 		INFOPATH: string;
 		HOMEBREW_CELLAR: string;
 		RUBYOPT: string;
