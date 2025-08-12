@@ -165,46 +165,6 @@
 					{/each}
 				{/if}
 			</div>
-			
-			<div class="faq-cta slide-in-right">
-				<div class="cta-card">
-					<h3>Still have questions?</h3>
-					<p>Email privacy is important, and we're here to help you understand how to protect it.</p>
-					
-					<div class="cta-actions">
-						<a href="#usage" class="btn btn-primary">
-							Learn How to Use BCC
-						</a>
-						<a href="#comparison" class="btn btn-outline">
-							See BCC vs CC Comparison
-						</a>
-					</div>
-					
-					<div class="additional-resources">
-						<h4>Additional Resources</h4>
-						<ul class="resource-list">
-							<li>
-								<a href="https://support.google.com/mail/answer/6584" target="_blank" rel="noopener noreferrer">
-									Gmail BCC Documentation
-									<ExternalLink size={14} />
-								</a>
-							</li>
-							<li>
-								<a href="https://support.microsoft.com/en-us/office/add-and-use-bcc-in-email-messages-7c4e8e9b-7b8a-4b0a-8b0a-8b0a8b0a8b0a" target="_blank" rel="noopener noreferrer">
-									Outlook BCC Guide
-									<ExternalLink size={14} />
-								</a>
-							</li>
-							<li>
-								<a href="https://support.apple.com/guide/mail/send-emails-mlhl2e7c5a4d/mac" target="_blank" rel="noopener noreferrer">
-									Apple Mail Help
-									<ExternalLink size={14} />
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
 </section>

@@ -72,21 +72,6 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="problem-stats fade-in">
-			<div class="stat-item">
-				<div class="stat-number">73%</div>
-				<div class="stat-label">of people don't realize CC exposes email addresses</div>
-			</div>
-			<div class="stat-item">
-				<div class="stat-number">2.4x</div>
-				<div class="stat-label">increase in spam after email exposure</div>
-			</div>
-			<div class="stat-item">
-				<div class="stat-number">89%</div>
-				<div class="stat-label">prefer their email to remain private</div>
-			</div>
-		</div>
 	</div>
 </section>
 

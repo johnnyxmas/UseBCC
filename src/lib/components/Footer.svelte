@@ -14,17 +14,6 @@
 				<p class="brand-description">
 					Protecting privacy in group emails, one BCC at a time. Simple guidance for better email practices.
 				</p>
-				<div class="social-links">
-					<a href="https://github.com" target="_blank" rel="noopener" class="social-link" aria-label="GitHub">
-						<Github size={20} />
-					</a>
-					<a href="https://twitter.com" target="_blank" rel="noopener" class="social-link" aria-label="Twitter">
-						<Twitter size={20} />
-					</a>
-					<a href="mailto:hello@usebcc.info" class="social-link" aria-label="Email">
-						<Mail size={20} />
-					</a>
-				</div>
 			</div>
 			
 			<div class="footer-links">
@@ -68,8 +57,7 @@
 					<ul>
 						<li><a href="#hero">About UseBCC</a></li>
 						<li><a href="#faq">Frequently Asked</a></li>
-						<li><a href="mailto:hello@usebcc.info">Contact Us</a></li>
-						<li><a href="https://github.com/yourusername/UseBCC" target="_blank" rel="noopener">
+						<li><a href="https://github.com/johnnyxmas/UseBCC" target="_blank" rel="noopener">
 							Source Code
 							<ExternalLink size={14} />
 						</a></li>
@@ -78,28 +66,13 @@
 			</div>
 		</div>
 		
-		<div class="footer-bottom">
-			<div class="footer-stats">
-				<div class="stat-item">
-					<span class="stat-number">1.64<br>Quadrillion+</span>
-					<span class="stat-label">Protected Recipients</span>
-				</div>
-				<div class="stat-item">
-					<span class="stat-number">32 Trillion+</span>
-					<span class="stat-label">Private Emails</span>
-				</div>
-				<div class="stat-item">
-					<span class="stat-number">100%</span>
-					<span class="stat-label">Privacy Focus</span>
-				</div>
-			</div>
-			
+		<div class="footer-bottom">			
 			<div class="footer-divider"></div>
 			
 			<div class="footer-meta">
 				<div class="copyright">
 					<p>
-						© 2024 UseBCC. Made with 
+						© 2025 JohnnyXmas. Made with 
 						<Heart size={16} class="heart-icon" />
 						for email privacy.
 					</p>

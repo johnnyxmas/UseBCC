@@ -141,7 +141,7 @@
 						<div class="practice-icon">✅</div>
 						<div class="practice-content">
 							<h4>When to use BCC</h4>
-							<p>Group announcements, newsletters, introductions, and any email where recipients don't need to know each other.</p>
+							<p>Group announcements, newsletters, notifications... any email where recipients don't need to know each other!</p>
 						</div>
 					</div>
 					
