@@ -89,7 +89,7 @@
 		aria-label="Toggle theme"
 		aria-expanded={isOpen}
 	>
-		<CurrentIcon size={20} />
+		<svelte:component this={CurrentIcon} size={20} />
 		<span class="toggle-label">{currentTheme?.label}</span>
 		<svg 
 			class="chevron" 

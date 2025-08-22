@@ -376,72 +376,7 @@
 		margin-bottom: 0;
 	}
 	
-	.faq-cta {
-		position: sticky;
-		top: var(--spacing-8);
-		height: fit-content;
-	}
 	
-	.cta-card {
-		background: var(--color-white);
-		padding: var(--spacing-8);
-		border-radius: var(--radius-xl);
-		box-shadow: var(--shadow-lg);
-		text-align: center;
-	}
-	
-	.cta-card h3 {
-		color: var(--color-gray-900);
-		margin-bottom: var(--spacing-4);
-	}
-	
-	.cta-card p {
-		color: var(--color-gray-600);
-		margin-bottom: var(--spacing-6);
-	}
-	
-	.cta-actions {
-		display: flex;
-		flex-direction: column;
-		gap: var(--spacing-3);
-		margin-bottom: var(--spacing-8);
-	}
-	
-	.additional-resources {
-		text-align: left;
-		padding-top: var(--spacing-6);
-		border-top: 1px solid var(--color-gray-200);
-	}
-	
-	.additional-resources h4 {
-		color: var(--color-gray-800);
-		margin-bottom: var(--spacing-4);
-		font-size: var(--font-size-base);
-	}
-	
-	.resource-list {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-	}
-	
-	.resource-list li {
-		margin-bottom: var(--spacing-2);
-	}
-	
-	.resource-list a {
-		display: flex;
-		align-items: center;
-		gap: var(--spacing-2);
-		color: var(--color-primary);
-		font-size: var(--font-size-sm);
-		text-decoration: none;
-		transition: color var(--transition-fast);
-	}
-	
-	.resource-list a:hover {
-		color: var(--color-primary-light);
-	}
 	
 	
 	@media (max-width: 768px) {
@@ -467,12 +402,6 @@
 			font-size: var(--font-size-base);
 		}
 		
-		.cta-actions {
-			gap: var(--spacing-2);
-		}
 		
-		.faq-cta {
-			position: static;
-		}
 	}
 </style>

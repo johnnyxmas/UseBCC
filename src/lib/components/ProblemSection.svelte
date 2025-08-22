@@ -210,42 +210,10 @@
 		line-height: 1.6;
 	}
 	
-	.problem-stats {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: var(--spacing-8);
-		text-align: center;
-	}
-	
-	.stat-item {
-		padding: var(--spacing-6);
-		background: var(--color-white);
-		border-radius: var(--radius-xl);
-		box-shadow: var(--shadow-md);
-	}
-	
-	.stat-number {
-		font-size: var(--font-size-4xl);
-		font-weight: 800;
-		color: var(--color-orange-600);
-		margin-bottom: var(--spacing-2);
-	}
-	
-	.stat-label {
-		color: var(--color-gray-600);
-		font-size: var(--font-size-sm);
-		line-height: 1.4;
-	}
-	
 	@media (max-width: 768px) {
 		.problem-grid {
 			grid-template-columns: 1fr;
 			gap: var(--spacing-8);
-		}
-		
-		.problem-stats {
-			grid-template-columns: 1fr;
-			gap: var(--spacing-4);
 		}
 		
 		.exposed-emails {

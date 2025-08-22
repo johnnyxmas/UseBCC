@@ -15,9 +15,22 @@
 				<span class="text-primary">Stop Reply-All Spam</span>
 			</h1>
 			
-			<p class="hero-subtitle fade-in">
-				Master email security with BCC (Blind Carbon Copy). Prevent spam, protect email privacy, and secure recipient addresses. Learn the crucial difference between CC and BCC for anti-spam protection and proper email settings in Gmail, Outlook, and all major email clients.
-			</p>
+			<div class="hero-subtitle fade-in" style="text-align: left; max-width: 600px; margin: 0 auto;">
+				<ul style="color: var(--color-text-secondary); font-size: var(--font-size-xl); line-height: 1.8; list-style: none; padding: 0; margin: 0;">
+					<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 12px;">
+						<span style="color: var(--color-secondary); font-weight: bold; font-size: 20px; margin-top: 2px;">•</span>
+						<span><strong>BCC recipients cannot see other BCC recipients</strong></span>
+					</li>
+					<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 12px;">
+						<span style="color: var(--color-secondary); font-weight: bold; font-size: 20px; margin-top: 2px;">•</span>
+						<span><strong>CC recipients can see other CC recipients</strong></span>
+					</li>
+					<li style="margin-bottom: 12px; display: flex; align-items: flex-start; gap: 12px;">
+						<span style="color: var(--color-red-600); font-weight: bold; font-size: 20px; margin-top: 2px;">•</span>
+						<span><strong>BCC cannot reply all</strong></span>
+					</li>
+				</ul>
+			</div>
 			
 			<div class="hero-demo fade-in">
 				<div class="email-preview">
