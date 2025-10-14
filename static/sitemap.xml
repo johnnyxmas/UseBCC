@@ -4,83 +4,12 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     
-    <!-- Main page with all sections -->
+    <!-- Main page -->
     <url>
         <loc>https://usebcc.info/</loc>
-        <lastmod>2024-01-11</lastmod>
+        <lastmod>2025-01-14</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     
-    <!-- Direct links to page sections for better indexing -->
-    <url>
-        <loc>https://usebcc.info/#problem</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#solution</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#comparison</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#usage</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#faq</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <!-- Additional SEO-focused landing pages (virtual) -->
-    <url>
-        <loc>https://usebcc.info/#email-security</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#email-privacy</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#anti-spam</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#email-settings</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    
-    <url>
-        <loc>https://usebcc.info/#bcc-vs-cc</loc>
-        <lastmod>2024-01-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
 </urlset>
