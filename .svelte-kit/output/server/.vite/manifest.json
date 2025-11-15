@@ -28,9 +28,6 @@
       "_lucide.js",
       "_ssr.js",
       "_environment.js"
-    ],
-    "dynamicImports": [
-      "src/hooks.server.js"
     ]
   },
   "_lucide.js": {
@@ -74,12 +71,6 @@
       "_lucide.js",
       "_internal.js"
     ]
-  },
-  "src/hooks.server.js": {
-    "file": "chunks/hooks.server.js",
-    "name": "hooks.server",
-    "src": "src/hooks.server.js",
-    "isDynamicEntry": true
   },
   "src/routes/+layout.js": {
     "file": "entries/pages/_layout.js",

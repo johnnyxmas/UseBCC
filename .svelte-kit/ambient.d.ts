@@ -29,8 +29,8 @@ declare module '$env/static/private' {
 	export const TERM_PROGRAM: string;
 	export const NODE: string;
 	export const INIT_CWD: string;
-	export const PYENV_ROOT: string;
 	export const GEM_HOME: string;
+	export const PYENV_ROOT: string;
 	export const TERM: string;
 	export const VTE_VERSION: string;
 	export const SHELL: string;
@@ -38,8 +38,8 @@ declare module '$env/static/private' {
 	export const HOMEBREW_REPOSITORY: string;
 	export const TMPDIR: string;
 	export const npm_config_global_prefix: string;
+	export const VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
 	export const TERM_PROGRAM_VERSION: string;
-	export const ZDOTDIR: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const MallocNanoZone: string;
 	export const COLOR: string;
@@ -47,7 +47,6 @@ declare module '$env/static/private' {
 	export const npm_config_local_prefix: string;
 	export const npm_config_python: string;
 	export const USER: string;
-	export const VSCODE_LOGIN_INITIALIZED: string;
 	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
 	export const SSH_AUTH_SOCK: string;
@@ -86,8 +85,8 @@ declare module '$env/static/private' {
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
-	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const GEM_PATH: string;
+	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const RUBY_ROOT: string;
 	export const npm_config_user_agent: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
@@ -97,6 +96,7 @@ declare module '$env/static/private' {
 	export const HOMEBREW_CELLAR: string;
 	export const RUBYOPT: string;
 	export const BAT_THEME: string;
+	export const OSLogRateLimit: string;
 	export const RUBY_VERSION: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
@@ -136,8 +136,8 @@ declare module '$env/dynamic/private' {
 		TERM_PROGRAM: string;
 		NODE: string;
 		INIT_CWD: string;
-		PYENV_ROOT: string;
 		GEM_HOME: string;
+		PYENV_ROOT: string;
 		TERM: string;
 		VTE_VERSION: string;
 		SHELL: string;
@@ -145,8 +145,8 @@ declare module '$env/dynamic/private' {
 		HOMEBREW_REPOSITORY: string;
 		TMPDIR: string;
 		npm_config_global_prefix: string;
+		VSCODE_PYTHON_AUTOACTIVATE_GUARD: string;
 		TERM_PROGRAM_VERSION: string;
-		ZDOTDIR: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		MallocNanoZone: string;
 		COLOR: string;
@@ -154,7 +154,6 @@ declare module '$env/dynamic/private' {
 		npm_config_local_prefix: string;
 		npm_config_python: string;
 		USER: string;
-		VSCODE_LOGIN_INITIALIZED: string;
 		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
 		SSH_AUTH_SOCK: string;
@@ -193,8 +192,8 @@ declare module '$env/dynamic/private' {
 		npm_config_cache: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
-		VSCODE_GIT_IPC_HANDLE: string;
 		GEM_PATH: string;
+		VSCODE_GIT_IPC_HANDLE: string;
 		RUBY_ROOT: string;
 		npm_config_user_agent: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
@@ -204,6 +203,7 @@ declare module '$env/dynamic/private' {
 		HOMEBREW_CELLAR: string;
 		RUBYOPT: string;
 		BAT_THEME: string;
+		OSLogRateLimit: string;
 		RUBY_VERSION: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
