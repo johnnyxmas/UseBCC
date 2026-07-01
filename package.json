@@ -10,17 +10,17 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.9",
-    "@sveltejs/kit": "^2.49.5",
-    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "@sveltejs/kit": "^2.68.0",
+    "@sveltejs/vite-plugin-svelte": "^7.1.2",
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.1.0",
-    "postcss": "^8.5.6",
-    "svelte": "^4.2.20",
+    "postcss": "^8.5.16",
+    "svelte": "^5.56.4",
     "terser": "^5.43.1",
-    "vite": "^5.4.21"
+    "vite": "^8.1.2"
   },
   "dependencies": {
-    "lucide-svelte": "^0.294.0"
+    "lucide-svelte": "^1.0.1"
   },
   "overrides": {
     "cookie": "^0.7.2",
