@@ -19,8 +19,8 @@ export default defineConfig({
 		},
 		rollupOptions: {
 			output: {
-				manualChunks: {
-					'lucide': ['lucide-svelte']
+				manualChunks(id) {
+					if (id.includes('lucide-svelte')) return 'lucide';
 				}
 				// Note: SvelteKit overrides entryFileNames, chunkFileNames, and assetFileNames
 				// so we don't set them here to avoid conflicts

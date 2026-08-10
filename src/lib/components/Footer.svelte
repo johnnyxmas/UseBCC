@@ -1,5 +1,5 @@
 <script>
-	import { Shield, Mail, Github, Twitter, ExternalLink, Heart } from 'lucide-svelte';
+	import { Shield, ExternalLink, Heart } from 'lucide-svelte';
 	import { base } from '$app/paths';
 </script>
 
